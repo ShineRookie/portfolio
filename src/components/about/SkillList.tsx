@@ -4,7 +4,7 @@ export const SkillsList = () => {
     const skills = ['TypeScript', 'Swift', 'Python', 'C++', "C#"];
 
     return (
-        <div className="mt-6 grid grid-cols-3 gap-4">
+        <div className="mt-6 grid grid-cols-2 lg:grid-cols-3 gap-4">
             {skills.map((skill, index) => (
                 <motion.div
                     key={skill}
